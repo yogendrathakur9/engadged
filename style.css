@@ -93,10 +93,28 @@
 .form input {
   width: 75%;
   border: none;
- 
+
   border-bottom: 1px #3399cc solid;
   font-size: 20px;
 }
+.form label {
+   position: absolute;
+   bottom: 61%;
+   right: 20%;
+   border: none;
+   text-transform: capitalize;
+   transition: top .3s;
+
+  }
+  .form input:focus ~ label{
+  padding: 0 5px;
+    bottom: 415px;
+    background-color: #FFFFFF;
+
+  }
+    
+    
+  
 
 .form button {
   width: 75%;
