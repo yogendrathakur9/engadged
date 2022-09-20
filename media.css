@@ -7,7 +7,7 @@
    width:  50%;
 }
 .container img {
-    width: 70%;
+    width: 50%;
 }
 .text-area h1{
     width: 50%;
@@ -29,7 +29,7 @@
     }
     
 .login-section img {
-  width: 50%;
+  width: 30%;
   height: 4%;
   position: relative;
   bottom: 50px;
